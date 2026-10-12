@@ -1,3 +1,4 @@
+#dobrze
 import random
 print("Dice rolling simulator")
 for i in range(5):

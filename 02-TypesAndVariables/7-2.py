@@ -1,4 +1,4 @@
-###dobrze
+#dobrze
 # A program that checks whether the password length
 # read from the keyboard is correct.
 #

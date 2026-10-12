@@ -1,4 +1,4 @@
-###dobrze
+#dobrze
 # A program for printing detailed information.
 #
 employee = "Mr. John May, born on 1998-02-16"

@@ -1,4 +1,4 @@
-###
+#średnio
 # A program for swapping two varable values
 #
 x = 7

@@ -1,4 +1,4 @@
-###
+#dobrze (angielski)
 # Write a program that calculates and prints
 # the income of a family per person. To print the results
 # in a readable form, use f-strings.

@@ -1,4 +1,4 @@
-###dobrze
+#dobrze
 # A program that prints your initials
 #
 name = 'George'

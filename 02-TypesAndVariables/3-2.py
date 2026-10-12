@@ -1,3 +1,4 @@
+#dobrze
 number1 = 71
 number2 = 14
 number3= 67

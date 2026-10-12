@@ -1,3 +1,4 @@
+#dobrze (angielski)
 a = 3
 b = 5
 dod=a+b

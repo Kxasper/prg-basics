@@ -1,4 +1,4 @@
-###
+#dobrze
 # A program that, for a given speed in km/h,
 # prints the speed in m/s
 #

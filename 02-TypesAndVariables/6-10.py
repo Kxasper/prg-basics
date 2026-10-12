@@ -1,4 +1,4 @@
-###zle
+#chyba dobrze
 # String manipulation
 #
 
@@ -8,10 +8,10 @@ movie = "The Lord of the Rings: The Return of the King"
 print('Number of characters: ', len(movie))
 
 # print title in capital letters
-print(movie.capitalize)
+print(movie.capitalize())
 
 # print title in small letters
-print(movie.casefold)
+print(movie.casefold())
 
 # print how many times the vowel "e" appears in the title
 print(movie.count("e"))

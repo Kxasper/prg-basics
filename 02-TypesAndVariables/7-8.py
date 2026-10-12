@@ -1,4 +1,4 @@
-###srednio
+#srednio (angielski)
 # A program that prints results of three dice rolls
 # and the sum of dice rolled.
 #

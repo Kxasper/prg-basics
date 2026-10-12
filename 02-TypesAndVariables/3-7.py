@@ -1,4 +1,4 @@
-###
+#dobrze (angielski)
 # A program that calculates and prints:
 # - the number of people and percentage of the total
 #   population living in the Northern Hemisphere

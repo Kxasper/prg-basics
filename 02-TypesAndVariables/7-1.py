@@ -1,4 +1,4 @@
-###srednio
+#średnio (angielski)
 # People up to and including 26 years of age are exempt
 # from paying taxes in Poland. Write a program that,
 # based on the person's age entered from the keyboard,

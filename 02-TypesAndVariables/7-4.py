@@ -1,4 +1,4 @@
-#srednio
+#średnio (wszystko dziwne)
 import math
 Obwod=float(input(("Podaj obwód w cm: ")))
 Srednica = Obwod/math.pi

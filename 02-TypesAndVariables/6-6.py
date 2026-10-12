@@ -1,4 +1,4 @@
-#dobrze
+#dobrze (chyba)
 print(f'a {ord('a')}')
 print(f'b {ord('b')}')
 print(f'z {ord('z')}')

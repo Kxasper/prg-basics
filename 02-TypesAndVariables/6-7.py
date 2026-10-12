@@ -1,4 +1,4 @@
-###dobrze
+#dobrze (chyba)
 # A program that prints a numerical representation of each letter of your name.
 #
 name = 'Kasper' # replace John with your name

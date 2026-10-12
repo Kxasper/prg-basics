@@ -1,4 +1,4 @@
-###zle
+#źle (nie angielski)
 # A program that calculates
 # how many letters are between two given letters
 #

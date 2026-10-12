@@ -1,9 +1,9 @@
-###
+#średnio
 # A program that calculates the length of the diagonal
 # of a rectangle with sides a and b.
 #
 import math
 a = 5
-b = 6
+b = 8
 diagonal = round(math.sqrt(a**2 + b**2),2)
 print(diagonal)

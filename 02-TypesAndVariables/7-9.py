@@ -1,4 +1,8 @@
+#angielski ale chyba git i fukcja random problematyczna
 import random
-liczba_wylosowana=random.randint()
-if liczba_wylosowana>=1 and liczba_wylosowana<=6:
-    true
+liczba_wylosowana=random.randint(1,6)
+if liczba_wylosowana==1 and liczba_wylosowana==6:
+    liczba=True
+else:
+    liczba= False
+print(f"liczba to: {liczba_wylosowana}, czy jest to 1 lub 6: {liczba}")

@@ -1,4 +1,4 @@
-###dobrze
+#dobrze
 # Vehicle registration numbers in Krakow start
 # with the letters KR or KK. Write a program that checks
 # whether the vehicle registration number entered
