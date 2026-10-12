@@ -1,7 +1,7 @@
 #angielski ale chyba git i fukcja random problematyczna
 import random
 liczba_wylosowana=random.randint(1,6)
-if liczba_wylosowana==1 and liczba_wylosowana==6:
+if liczba_wylosowana==1 or liczba_wylosowana==6:
     liczba=True
 else:
     liczba= False

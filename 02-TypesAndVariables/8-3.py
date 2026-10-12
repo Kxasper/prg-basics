@@ -3,6 +3,11 @@
 # Use comments to briefly describe the program's algorithm.
 #
 
-temperatura_sc=int(input("Podaj temperature w stopniach celciusza: "))
-# Temperatura w stopniach celiusza
-# nwm kurwa jak to przeksztalcic xd
+
+celsius = float(input("Enter temperature in Celsius: "))
+
+kelvin = celsius + 273.15
+fahrenheit = (celsius * 1.8) + 32
+
+print(f"Temperature in Kelvin: {round(kelvin, 2)} K")
+print(f"Temperature in Fahrenheit: {round(fahrenheit, 2)} F")

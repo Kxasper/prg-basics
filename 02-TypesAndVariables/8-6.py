@@ -8,4 +8,5 @@ fuel_price = float(input('Enter fuel price per 1 liter: '))
 fuel_consumption = float(input('Enter fuel consumption per 100 km: '))
 total_fuel_consumption = distance/100*fuel_consumption
 total_cost = fuel_price*total_fuel_consumption
-print(total_fuel_consumption)
+print(f"Total fuel consumption: {round(total_fuel_consumption, 2)} liters")
+print(f"Total cost: {round(total_cost, 2)} PLN")
