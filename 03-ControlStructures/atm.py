@@ -5,15 +5,15 @@ balance = 1000  # Initial balance
 pin = '1111' # initial 4-digit PIN code
 
 while True:
-    print()
-    print("ATM Menu:")
+    print("\nATM Menu:")
     print("1. Check balance")
     print("2. Deposit")
     print("3. Withdraw")
-    print("4. Exit")
+    print("4. Check PIN")
+    print("5. Change PIN")
+    print("6. Exit")
 
     choice = input("Choose an option (1-4): ")
-    print()
 
     if choice == '1':
         print(f"Your current balance is: €{balance}")
@@ -29,7 +29,15 @@ while True:
         else:
             print("Insufficient balance.")
     elif choice == '4':
+        print(f"Your current PIN is {pin}")
+    elif choice == '5':
+        new_pin=input("Enter new 4-digit PIN: ")
+        if len(new_pin) == 4 and new_pin.isdigit():
+            pin=new_pin
+            print("PIN changed successfully!")
+        else:
+            print("Invalid PIN! Must be exactly 4 digits.")
+    elif choice == '6':
         print("Exiting... Thank you for using the ATM!")
-        break  # Exit the loop
     else:
         print("Invalid option. Please try again.")
