@@ -1,10 +1,14 @@
 #zle, przez angielski i brak wiedzy
-liczba=(input("Podaj liczbę dzisiętną: "))
-liczba_bin=''
-for x in liczba:
-    x=int(x)
-    wynik1=x/2
-    wynik2=wynik1**2
-    x=str(x)
-    liczba_bin+=x
-print(liczba_bin)
+n = int(input("Enter decimal number: "))
+oryginal = n
+binarny = ""
+
+if n == 0:
+      binarny = "0"
+
+while n > 0:
+      reszta = n % 2
+      binarny = str(reszta) + binarny  # dopisujemy z lewej strony!
+      n = n // 2
+
+print(f"{oryginal}(10) = {binarny}(2)")
