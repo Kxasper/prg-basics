@@ -1,9 +1,16 @@
+#dziwne
 def m_to_cm(n):
     return n*100
 
 def cm_to_m(n):
     return n/100
-
+def cm_to_ih(n):
+    return n/2.54
+def ih_to_cm(n):
+    return n*2.54
+def feet_and_in_to_cm(feet, inches):
+    total_inches = (feet * 12) + inches
+    return total_inches * 2.54
 if __name__ == "__main__":
     # only execute when you run this module
     # so you can test the functions in this place
